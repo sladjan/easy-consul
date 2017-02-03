@@ -19,7 +19,7 @@ services:
     links:
      - consul
     ports:
-     - "8081:8080"
+     - "8090:8090"
     environment:
       SPRING_CLOUD_CONSUL_HOST: consul
       SPRING_PROFILES_ACTIVE: docker

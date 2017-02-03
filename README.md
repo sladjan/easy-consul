@@ -25,6 +25,6 @@ For running in docker container
 docker-compose up
 
 ```
-* Frontend is available on http://192.166.99.100:8080/randomint
+* Frontend is available on http://192.166.99.100:8090/randomint
 * Consul-UI is available on http://192.166.99.100:8500/ui
 

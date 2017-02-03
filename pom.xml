@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>ie.ais.microservices.wshop</groupId>
-	<artifactId>spring-cloud-consul</artifactId>
+	<artifactId>easy-cloud-consul</artifactId>
 	<version>1.0.0</version>
 	<packaging>pom</packaging>
 
-	<name>spring-cloud-consul</name>
+	<name>easy-cloud-consul</name>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>

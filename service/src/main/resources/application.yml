@@ -1,0 +1,19 @@
+spring:
+  profiles: local
+  cloud:
+      consul:
+          discovery:
+             prefer-ip-address: true
+#             instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+          host: 127.0.0.1
+          port: 8500
+---
+spring:
+  profiles: docker
+  cloud:
+      consul:
+          discovery:
+             prefer-ip-address: true
+#             instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+          host: consul
+          port: 8500

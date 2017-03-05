@@ -1,4 +1,4 @@
-# Easy Consul Docker Example
+# Simple and Easy Consul Docker Example with Feign client 
 
 * Download  consul from https://www.consul.io/downloads.html
 
